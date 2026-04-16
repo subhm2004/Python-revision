@@ -1,9 +1,12 @@
-print(1)
-print(2)
-print(3)
-print(4)
-print(5)
+import time
 
-# The same task can be done like this:
-for i in range(1, 6):
+start = time.time()   # start time
+
+n = int(input("Enter the number: "))
+
+for i in range(1, n+1):
     print(i)
+
+end = time.time()     # end time
+
+print("Time taken:", end - start, "seconds")

@@ -1,5 +1,5 @@
 letter = '''Dear <|Name|>, 
 You are selected! 
 <|Date|> '''
-
-print(letter.replace("<|Name|>", "Harry").replace("<|Date|", "24 September 2050"))
+# chaining krte hai ese 
+print(letter.replace("<|Name|>", "Shubham").replace("<|Date|>", "15 April 2026"))

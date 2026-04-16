@@ -1,4 +1,3 @@
-a = 'Harry is a good boy\nbut not a bad \'boy\''
-
+a = "Shubham is a good boy\nbut not a bad \'boy\'"
 
 print(a)

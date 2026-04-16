@@ -1,4 +1,4 @@
-words = {
+dict = {
     "madad": "Help",
     "kursi": "Chair",
     "billi": "Cat"
@@ -6,4 +6,4 @@ words = {
 
 word = input("Enter the word you want meaning of: ")
 
-print(words[word])
+print(dict[word])

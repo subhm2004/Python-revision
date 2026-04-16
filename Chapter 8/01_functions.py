@@ -24,9 +24,3 @@ def avg():
 
 avg() # Function Call
 print("Thank you!")
-avg()
-print("Thank you!")
-avg()
-print("Thank you!")
-avg()
-avg()

@@ -1,13 +1,8 @@
+# while loop 
+n = int(input("Enter number :"))
+
 i = 1
 
-while(i<51):
+while(i < n+1):
     print(i)
-    i +=1 # or i = i + 1
-'''
-Output:
-1
-2
-3
-4
-5
-'''
+    i+=1
